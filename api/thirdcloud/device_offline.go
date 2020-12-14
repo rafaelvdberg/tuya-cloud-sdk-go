@@ -3,7 +3,7 @@ package thirdcloud
 import (
 	"fmt"
 
-	"github.com/tuya/tuya-cloud-sdk-go/api/common"
+	"github.com/rafaelvdberg/tuya-cloud-sdk-go/api/common"
 )
 
 type PutDevicesOfflineReq struct {

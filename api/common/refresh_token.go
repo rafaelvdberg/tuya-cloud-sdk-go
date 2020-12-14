@@ -3,7 +3,7 @@ package common
 import (
 	"fmt"
 
-	"github.com/tuya/tuya-cloud-sdk-go/pkg/tylog"
+	"github.com/rafaelvdberg/tuya-cloud-sdk-go/pkg/tylog"
 )
 
 type RefreshTokenReq struct {

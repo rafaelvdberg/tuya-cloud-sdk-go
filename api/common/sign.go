@@ -6,7 +6,7 @@ import (
 	"encoding/hex"
 	"strings"
 
-	"github.com/tuya/tuya-cloud-sdk-go/config"
+	"github.com/rafaelvdberg/tuya-cloud-sdk-go/config"
 )
 
 func GetBizSign(token, timestamp string) string {
