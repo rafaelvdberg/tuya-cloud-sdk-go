@@ -18,7 +18,7 @@ func (t *GetDeviceFactoryReq) API() string {
 	return fmt.Sprintf("/v1.0/devices/factory-infos?device_ids=%s", t.DeviceID)
 }
 
-// GetDeviceFactory Get the function list based on the device id
+// GetDeviceFactory Get the factory information based on the device id
 func GetDeviceFactory(deviceID string) (*GetDeviceFactoryResponse, error) {
 	a := &GetDeviceFactoryReq{DeviceID: deviceID}
 	resp := &GetDeviceFactoryResponse{}
